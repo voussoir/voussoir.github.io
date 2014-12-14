@@ -1,0 +1,69 @@
+/*
+272822 - Monokai_bg
+1b1c18 - Monokai_bg_dark
+ae81ff - Monokai_purple
+a6e22e - Monokai_green
+f92672 - Monokai_pink
+f8f8f2 - Monokai_white
+e6db74 - Monokai_yellow
+fd971f - Monokai_orange
+66d9ef - Monokai_blue
+
+ff5700 - Reddit_orange
+ff4500 - Reddit_orangered
+ff8b60 - Reddit_upvote
+9494ff - Reddit_downvote
+c6c6c6 - Reddit_neutral
+eff7ff - Reddit_light_bg
+cee3f8 - Reddit_header_bg
+336699 - Reddit_ui_text
+
+ffd43b - Goldensights_yellow
+
+*/
+html
+{
+	background-color: /*Monokai_bg_dark*/#1b1c18;
+
+}
+body
+{
+	padding:5px;
+	border:5px;
+	border-radius:3px;
+	width:80%;
+	margin-left:10%;
+	background-color: /*Monokai_bg*/#272822;
+	color: /*Reddit_neutral*/#c6c6c6;
+	font-family:"Consolas";
+}
+
+a
+{
+	color: /*Monokai_purple*/#ae81ff;
+	text-decoration:none;
+}
+a:hover
+{
+	text-decoration:underline;
+}
+
+p[name="imagecaption"]
+{
+	line-height:0px;
+	margin:0px;
+	width:233px;
+	text-align:center;
+}
+
+input[type="text"]
+{
+	background-color:/*Monokai_bg*/#272822;
+	border: 3px solid /*Monokai_bg_dark*/#1b1c18;
+	color: /*Reddit_neutral*/#c6c6c6;
+}
+
+div.inlineimage
+{
+	display:inline;
+}
