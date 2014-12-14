@@ -67,3 +67,8 @@ div.inlineimage
 {
 	display:inline;
 }
+
+div.audioelement audio
+{
+	vertical-align:middle;
+}
