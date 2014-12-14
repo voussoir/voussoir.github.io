@@ -63,6 +63,10 @@ input[type="text"]
 	color: /*Reddit_neutral*/#c6c6c6;
 }
 
+div.header
+{
+	width:100%;
+}
 div.inlineimage
 {
 	display:inline;
