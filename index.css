@@ -8,6 +8,7 @@ f8f8f2 - Monokai_white
 e6db74 - Monokai_yellow
 fd971f - Monokai_orange
 66d9ef - Monokai_blue
+284142 - Monokai_bg_blue
 
 ff5700 - Reddit_orange
 ff4500 - Reddit_orangered
@@ -66,7 +67,7 @@ input[type="text"]
 div.header
 {
 	width:100%;
-	background-color:#284142;
+	background-color:/*Monokai_bg_blue*/#284142;
 }
 div.inlineimage
 {
@@ -76,4 +77,34 @@ div.inlineimage
 div.audioelement audio
 {
 	vertical-align:middle;
+}
+
+div.clickbutton
+{
+	width: 200px;
+	height: 35px;
+	background-color:/*Monokai_bg_blue*/#284142;
+	border-bottom: 3px solid #183132;
+	border-top: 0px;
+}
+div.clickbutton:hover
+{
+	text-decoration:none !important;
+	border-top: 3px solid #183132;
+	border-bottom: 0px;
+}
+div.clickbutton-a
+{
+	height:100%;
+	width:100%;
+	text-align:center;
+}
+div.clickbutton a:hover
+{
+	text-decoration:none;
+}
+div.clickbutton strong
+{
+	position:relative;
+	top:20%;
 }

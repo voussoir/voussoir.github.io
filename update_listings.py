@@ -7,12 +7,17 @@ TEMPLATE_AUDIO = """
 			Your user agent does not support the HTML5 Audio element.
 			</audio>
 		</div>
-"""
+		"""
 TEMPLATE_IMAGE = """
 		<div class="imagelinkelement">
 			<a href="images/{f}">{f}</a>
 		</div>
-"""
+		"""
+TEMPLATE_ZIP = """
+		<div class="ziplinkelement">
+			<a href="zips/{f}">{f}</a>
+		</div>
+		"""
 SPLITTER = "<!-- Automatic -->"
 
 def listing(directory, htmlfilename, template):
@@ -33,3 +38,4 @@ def listing(directory, htmlfilename, template):
 
 listing("audio", "audio.html", TEMPLATE_AUDIO)
 listing("images", "images.html", TEMPLATE_IMAGE)
+listing("zips", "zips.html", TEMPLATE_ZIP)
