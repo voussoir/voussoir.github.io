@@ -1,27 +1,28 @@
 import os
 TEMPLATE_AUDIO = """
 		<div class="audioelement">
-			<a href="audio/{f}">{f}</a>
+			<a href="{f}">{f}</a>
 			<audio controls
-			  src="audio/{f}">
+			  src="{f}">
 			Your user agent does not support the HTML5 Audio element.
 			</audio>
 		</div>
 		"""
 TEMPLATE_IMAGE = """
 		<div class="imagelinkelement">
-			<a href="images/{f}">{f}</a>
+			<a href="{f}">{f}</a>
 		</div>
 		"""
 TEMPLATE_ZIP = """
 		<div class="ziplinkelement">
-			<a href="zips/{f}">{f}</a>
+			<a href="{f}">{f}</a>
 		</div>
 		"""
 SPLITTER = "<!-- Automatic -->"
 
 def listing(directory, htmlfilename, template):
 	files = os.listdir(directory)
+	files.remove('index.html')
 	files.sort()
 	divs = []
 	for f in files:
@@ -36,6 +37,6 @@ def listing(directory, htmlfilename, template):
 	page.write(html)
 	page.close()
 
-listing("audio", "audio.html", TEMPLATE_AUDIO)
-listing("images", "images.html", TEMPLATE_IMAGE)
-listing("zips", "zips.html", TEMPLATE_ZIP)
+listing("audio", "audio/index.html", TEMPLATE_AUDIO)
+listing("images", "images/index.html", TEMPLATE_IMAGE)
+listing("zips", "zips/index.html", TEMPLATE_ZIP)
