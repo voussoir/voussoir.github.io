@@ -92,7 +92,7 @@ div.clickbutton
 	border-bottom: 3px solid #183132;
 	border-top: 0px;
 }
-div.clickbutton:hover
+div.clickbutton:active
 {
 	text-decoration:none !important;
 	border-top: 3px solid #183132;
