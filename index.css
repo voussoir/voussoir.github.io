@@ -88,8 +88,6 @@ div.audioelement audio
 
 div.clickbutton
 {
-	width: 200px;
-	height: 35px;
 	background-color:/*Monokai_bg_blue*/#284142;
 	border-bottom: 3px solid #183132;
 	border-top: 0px;
@@ -110,8 +108,13 @@ div.clickbutton a:hover
 {
 	text-decoration:none;
 }
-div.clickbutton strong
+div.clickbutton img
 {
 	position:relative;
 	top:20%;
+	left:0%;
+}
+div.clickbutton strong
+{
+	position:relative;
 }
