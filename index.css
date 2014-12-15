@@ -69,6 +69,10 @@ div.header
 	width:100%;
 	background-color:/*Monokai_bg_blue*/#284142;
 }
+div.header img:hover
+{
+	background-image: url("images/header_hover.png");
+}
 div.inlineimage
 {
 	display:inline;
