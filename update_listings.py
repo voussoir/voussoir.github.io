@@ -1,3 +1,4 @@
+import json
 import os
 TEMPLATE_AUDIO = """
 		<div class="audioelement">
@@ -40,3 +41,22 @@ def listing(directory, htmlfilename, template):
 listing("audio", "audio/index.html", TEMPLATE_AUDIO)
 listing("images", "images/index.html", TEMPLATE_IMAGE)
 listing("zips", "zips/index.html", TEMPLATE_ZIP)
+
+def css():
+	cssfile = open('index_vars.css', 'r')
+	css = cssfile.read()
+	cssfile.close()
+
+	cssparts = css.split(SPLITTER)
+	vardict = json.loads(cssparts[0])
+	css = cssparts[1]
+
+	for variable in vardict:
+		css = css.replace(variable + ' ', vardict[variable] + ' ')
+		css = css.replace(variable + ';', vardict[variable] + ';')
+
+	cssfile = open('index.css', 'w')
+	cssfile.write(css)
+	cssfile.close()
+
+css()

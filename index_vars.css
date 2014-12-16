@@ -1,0 +1,128 @@
+{
+	"Monokai_bg": "#272822",
+	"Monokai_bg_dark": "#1b1c18",
+	"Monokai_purple": "#ae81ff",
+	"Monokai_green": "#a6e22e",
+	"Monokai_pink": "#f92672",
+	"Monokai_white": "#f8f8f2",
+	"Monokai_yellow": "#e6db74",
+	"Monokai_orange": "#fd971f",
+	"Monokai_blue": "#66d9ef",
+	"Monokai_bg_blue": "#284142",
+	"Monokai_bg_blue_dark": "#183132",
+
+	"Reddit_orange": "#ff5700",
+	"Reddit_orangered": "#ff4500",
+	"Reddit_upvote": "#ff8b60",
+	"Reddit_downvote": "#9494ff",
+	"Reddit_neutral": "#c6c6c6",
+	"Reddit_light_bg": "#eff7ff",
+	"Reddit_header_bg": "#cee3f8",
+	"Reddit_ui_text": "#336699",
+
+	"Goldensights_yellow": "#ffd43b",
+
+	"Python_Blue": "#306998",
+	"Python_Yellow": "#ffd43b"
+}
+<!-- Automatic -->
+html
+{
+	background-color: Monokai_bg_dark;
+
+}
+body
+{
+	padding:5px;
+	border:5px;
+	border-radius:3px;
+	width:80%;
+	margin-left:10%;
+	background-color: Monokai_bg;
+	color: Reddit_neutral;
+	font-family:"Consolas";
+}
+
+a
+{
+	color: Monokai_purple;
+	text-decoration:none;
+}
+a:hover
+{
+	text-decoration:underline;
+}
+
+p[name="imagecaption"]
+{
+	line-height:0px;
+	margin:0px;
+	width:233px;
+	text-align:center;
+}
+
+input[type="text"]
+{
+	background-color:Monokai_bg;
+	border: 3px solid Monokai_bg_dark;
+	color: Reddit_neutral;
+}
+
+div.header
+{
+	width:100%;
+	background-color: Monokai_bg_blue;
+}
+div.header img:hover
+{
+	background-image: url("images/header_hover.png");
+}
+div.inlineimage
+{
+	display:inline;
+}
+
+div.audioelement audio
+{
+	vertical-align:middle;
+}
+
+div.clickbutton
+{
+	background-color: Monokai_bg_blue;
+	border-bottom: 3px solid Monokai_bg_blue_dark;
+	border-top: 0px;
+}
+div.clickbutton:active
+{
+	text-decoration:none !important;
+	border-top: 3px solid Monokai_bg_blue_dark;
+	border-bottom: 0px;
+}
+div.clickbutton-a
+{
+	height:100%;
+	width:100%;
+	text-align:center;
+}
+div.clickbutton a:hover
+{
+	text-decoration:none;
+}
+div.clickbutton img
+{
+	position:relative;
+	top:20%;
+}
+div.clickbutton strong
+{
+	position:relative;
+}
+
+div.colorcell
+{
+	width:40px;
+	height:25px;
+	border: 1px solid Monokai_bg_dark;
+	border-radius:2px;
+}

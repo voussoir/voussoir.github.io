@@ -1,33 +1,7 @@
-/*
-272822 - Monokai_bg
-1b1c18 - Monokai_bg_dark
-ae81ff - Monokai_purple
-a6e22e - Monokai_green
-f92672 - Monokai_pink
-f8f8f2 - Monokai_white
-e6db74 - Monokai_yellow
-fd971f - Monokai_orange
-66d9ef - Monokai_blue
-284142 - Monokai_bg_blue
 
-ff5700 - Reddit_orange
-ff4500 - Reddit_orangered
-ff8b60 - Reddit_upvote
-9494ff - Reddit_downvote
-c6c6c6 - Reddit_neutral
-eff7ff - Reddit_light_bg
-cee3f8 - Reddit_header_bg
-336699 - Reddit_ui_text
-
-ffd43b - Goldensights_yellow
-
-306998 - Python_Blue
-ffd43b - Python_Yellow
-
-*/
 html
 {
-	background-color: /*Monokai_bg_dark*/#1b1c18;
+	background-color: #1b1c18;
 
 }
 body
@@ -37,14 +11,14 @@ body
 	border-radius:3px;
 	width:80%;
 	margin-left:10%;
-	background-color: /*Monokai_bg*/#272822;
-	color: /*Reddit_neutral*/#c6c6c6;
+	background-color: #272822;
+	color: #c6c6c6;
 	font-family:"Consolas";
 }
 
 a
 {
-	color: /*Monokai_purple*/#ae81ff;
+	color: #ae81ff;
 	text-decoration:none;
 }
 a:hover
@@ -62,15 +36,15 @@ p[name="imagecaption"]
 
 input[type="text"]
 {
-	background-color:/*Monokai_bg*/#272822;
-	border: 3px solid /*Monokai_bg_dark*/#1b1c18;
-	color: /*Reddit_neutral*/#c6c6c6;
+	background-color:#272822;
+	border: 3px solid #1b1c18;
+	color: #c6c6c6;
 }
 
 div.header
 {
 	width:100%;
-	background-color:/*Monokai_bg_blue*/#284142;
+	background-color: #284142;
 }
 div.header img:hover
 {
@@ -88,7 +62,7 @@ div.audioelement audio
 
 div.clickbutton
 {
-	background-color:/*Monokai_bg_blue*/#284142;
+	background-color: #284142;
 	border-bottom: 3px solid #183132;
 	border-top: 0px;
 }
@@ -116,4 +90,12 @@ div.clickbutton img
 div.clickbutton strong
 {
 	position:relative;
+}
+
+div.colorcell
+{
+	width:40px;
+	height:25px;
+	border: 1px solid #1b1c18;
+	border-radius:2px;
 }
