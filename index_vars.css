@@ -126,3 +126,9 @@ div.colorcell
 	border: 1px solid Monokai_bg_dark;
 	border-radius:2px;
 }
+
+div.footer
+{
+	text-align:center;
+	font-size:11px;
+}
