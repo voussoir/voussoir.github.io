@@ -62,6 +62,9 @@ div.audioelement audio
 
 div.clickbutton
 {
+	-moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
 	background-color: #284142;
 	border-bottom: 3px solid #183132;
 	border-top: 0px;
