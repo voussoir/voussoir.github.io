@@ -1,3 +1,13 @@
+div.header
+{
+	width:100%;
+	background-color: #284142;
+}
+div.header img:hover
+{
+	background-image: url("../images/header_hover.png");
+}
+
 div.strangebox
 {
 	float:left;
